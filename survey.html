@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+    <h1 id="title">Free survey form</h1>
+    <p id="description">Thank you for taking the time to complete this survey.</p>
+    <form id="survey-form">
+      <label id="name-label"for="name">Name:</label>
+      <input id="name" type="text" required placeholder="Enter your name">
+      <br>
+      <br>
+      <label id="email-label" for="email-label">Email:</label>
+      <input id="email" type="email" required placeholder="Enter your email">
+      <br>
+      <br>
+      <label id="number-label" for="number">Number:</label>
+      <input id="number" type="number" min="10" max="40" placeholder="Enter your nummber">
+      <br>
+      <br>
+    <label for="stay">How would you describe your stay?:</label>
+    <select id="dropdown">
+      <option value="bad">Bad</option>
+      <option value="better">Better</option>
+      <option value="good">Good</option>
+      <option value="excellent">Excellent</option>
+    </select>
+    <br>
+    <br> 
+    
+      <label for="stay">
+  Would you return here for your next trip?
+         Yes <input type="radio" value="Yes" name="stay"> 
+        </label>
+    No  <input type="radio" value="No" name="stay">
+    <br>
+    <br>
+
+    <fieldset>
+      <legend>What can be improved on our hotel?</legend>
+      <label for="food">Food</label>
+      <input id="checkbox" type="checkbox" value="food">
+      <label for="service">Service</label>
+      <input id="checkbox" type="checkbox" value="service">
+      <label for="noise">Noise</label>
+      <input id="checkbox" type="checkbox" value="noise">
+      <label for="drinks">Drinks</label>
+      <input id="checkbox" type="checkbox" value="drinks" >
+ </fieldset>
+  <br>
+  <br>
+
+  <label for="comments">Comments</label>
+  <textarea id="comments" type="text" cols="20" rows="10"></textarea>
+  <button id="submit" type="submit">Submit</button>
+
+
+    </form>
+  
+  </head>
+  <body
+  </body>
+</html>
